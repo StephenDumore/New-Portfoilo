@@ -7,7 +7,6 @@ body {
     min-height: 100%;
     background-position: center;
     background-attachment: fixed;
-    background-attachment: fixed;
 }
 
 h1 {
@@ -30,23 +29,24 @@ h1 {
     display: flex;
     overflow: hidden;
     justify-content: center;
+    padding-bottom: 2.3em;
 }
 
-.navbar li {
+.navbar a {
     padding-right: 1em;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2em;
     color: #232323;
     transition: color 0.2s ease-in-out;
+    text-decoration: none;
+    color: #232323;
 }
 
-.navbar li:hover {
+.navbar a:hover {
     color: #6b6b6b;
 }
 
 .ddmenu a {
-    text-decoration: none;
-    color: #232323;
     padding-right: 1em;
 }
 
@@ -332,7 +332,8 @@ textarea {
     display: flex;
 }
 
-.back, .next {
+.back,
+.next {
     cursor: pointer;
     color: #c6c6c6;
     font-size: 1em;
@@ -350,7 +351,8 @@ textarea {
     margin-left: .5em;
 }
 
-.back:hover, .next:hover {
+.back:hover,
+.next:hover {
     color: #919191;
 }
 
@@ -370,7 +372,8 @@ textarea {
     transition: ease 0.2s;
 }
 
-.current-dot, .dot:hover {
+.current-dot,
+.dot:hover {
     background-color: #919191;
 }
 

@@ -3,14 +3,20 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio Preview</title>
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Aleo|Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
+
 <body>
     <div class="list-parallax">
         <h1>Portfolio Overview</h1>
     </div>
+    <?php include'templates/nav.php'?>
     <div class="list-white">
         <div class="list-columns">
             <div class="pc1">
@@ -83,13 +89,15 @@
             for (i = 0; i < slide.length; i++) {
                 slide[i].style.display = "none";
             }
-              for (i=0; i < dots.length; i++) {
+            for (i = 0; i < dots.length; i++) {
                 dots[i].className.replace("current-dot", "")
             }
             slide[slideIndex - 1].style.display = "block";
-              dots[slideIndex - 1].className += "current-dot";
+            dots[slideIndex - 1].className += "current-dot";
         }
+
     </script>
 
 </body>
+
 </html>

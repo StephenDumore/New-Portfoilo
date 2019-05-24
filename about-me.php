@@ -17,7 +17,8 @@
     <div class="about-me-parallax">
         <h1>About Me</h1>
     </div>
-
+    <?php include'templates/nav.php'?>
+    
     <div class="content-top">
         <div class="contentwhite-vertical">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem corporis numquam blanditiis quibusdam libero hic officiis! Debitis accusantium, optio sit cum quod aliquam quam repellendus omnis culpa a, repudiandae. Earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque, dolorem. Praesentium totam laudantium assumenda iure delectus itaque vitae aspernatur voluptatem, amet libero neque porro inventore magni illo beatae sit!</p>

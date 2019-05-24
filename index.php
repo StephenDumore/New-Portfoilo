@@ -7,7 +7,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Aleo|Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -17,6 +17,7 @@
     <div class="home-parallax">
         <h1 class="welcome">Welcome!</h1>
     </div>
+    <?php include'templates/nav.php'?>
 
     <div class="content-black">
         <div class="homecolumns">
@@ -69,4 +70,6 @@
 
 
 
-</body></html>
+</body>
+
+</html>
