@@ -1,0 +1,502 @@
+body {
+    margin: 0px;
+}
+
+.home-parallax {
+    background-image: url(img/home-parallax.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: fixed;
+}
+
+h1 {
+    padding-left: .5em;
+    padding-top: 600px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 7em;
+    letter-spacing: .1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.content-black {
+    background-color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.navbar li {
+    padding-right: 1em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    color: #232323;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar li:hover {
+    color: #6b6b6b;
+}
+
+.ddmenu a {
+    text-decoration: none;
+    color: #232323;
+    padding-right: 1em;
+}
+
+.dditems {
+    position: absolute;
+    display: none;
+}
+
+.ddmenu:hover .dditems {
+    display: block;
+    padding-right: 1em;
+    color: #4d4d4d;
+}
+
+.dditems:hover {
+    color: #4d4d4d;
+}
+
+
+.columnimg {
+    max-width: 100%;
+}
+
+.homecolumns {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.homecolumns > div {
+    width: 33.3%;
+    background-color: ;
+    margin: .75em;
+}
+
+.columntxt {
+    padding: .5em;
+    color: #232323;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+}
+
+.contentWhite {
+    background-color: black;
+}
+
+.homeparagrphscon {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.homeparagrphscon > div {
+    font-family: 'Aleo', serif;
+    color: #e5e5e5;
+    font-size: 1.5em;
+    margin-left: .75em;
+    margin-right: .75em;
+    margin-top: 200px;
+    margin-bottom: 150px;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70%;
+}
+
+.icons a {
+    margin: 1em;
+    color: #e5e5e5;
+    font-size: 1.2em;
+    transition: 0.3s ease;
+}
+
+.icons a:hover {
+    color: #afafaf;
+}
+
+
+/*Proprietary to About Me*/
+.about-me-parallax {
+    background-image: url(img/aboutmeparallax.jpg);
+    min-height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-attachment: fixed;
+}
+
+.content-toptop {
+    padding-top: 1em;
+    padding-bottom: 3.2em;
+    background-color: #e5e5e5;
+}
+
+.content-toptop ul {
+    margin: 0px;
+}
+
+.content-top {
+    display: flex;
+}
+
+.contentwhite-vertical {
+    font-family: 'Aleo', serif;
+    color: #232323;
+    font-size: 1.5em;
+    margin-left: 5%;
+    padding-right: 5%;
+    padding-top: 2em;
+    padding-bottom: 2.2em;
+    width: 50%;
+}
+
+.content-black-vertical {
+    background-color: black;
+    font-family: 'Aleo', serif;
+    color: #e5e5e5;
+    font-size: 1.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2em;
+    padding-bottom: 2.2em;
+    width: 50%;
+}
+
+.content-bottom {
+    background-color: #232323;
+    padding-top: 5em;
+}
+
+.portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.about-me-bottom-p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    width: 60%;
+    padding: .5em;
+    padding-bottom: 3em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+}
+
+.form-parallax {
+    background-image: url(img/form-parallax.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.form-container {
+    display: flex;
+    margin: auto;
+    margin-top: 2em;
+    justify-content: center;
+    width: 60%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.form-left > div {
+    width: 50%;
+    flex-direction: column;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.form-right > div {
+    width: 30%;
+    flex-direction: column;
+}
+
+.txtbox {
+    font-size: 1em;
+    width: 100%;
+    padding: .75em;
+    padding-left: 1.5em;
+
+}
+
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    resize: none;
+    width: 100%;
+    font-size: 1em;
+}
+
+.submitbtn {
+    font-size: 1em;
+}
+
+.icons-about-me {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70%;
+}
+
+.icons-about-me a {
+    margin: 1em;
+    color: #232323;
+    font-size: 1.2em;
+    transition: ease 0.3s;
+}
+
+.icons-about-me a:hover {
+    color: #565656;
+}
+
+
+/* Proprietary to Portfolio List*/
+.list-parallax {
+    background-image: url(img/list-parallax-new.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.list-columns {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.list-columns > div {
+    padding: .5em;
+    color: #232323;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+}
+
+.list-black {
+    background-color: black;
+}
+
+.space {
+    width: 45%;
+}
+
+
+.slideshow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 7em;
+    padding-bottom: 10em;
+}
+
+.slide {
+    display: none;
+}
+
+.slide-nav {
+    margin: auto;
+    display: flex;
+}
+
+.back, .next {
+    cursor: pointer;
+    color: #c6c6c6;
+    font-size: 1em;
+    transition: 0.2s ease;
+    font-size: 2em;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.back {
+    margin-right: .5em;
+}
+
+.next {
+    margin-left: .5em;
+}
+
+.back:hover, .next:hover {
+    color: #919191;
+}
+
+.dotsdiv {
+    display: flex;
+    margin: auto;
+}
+
+.dot {
+    cursor: pointer;
+    line-height: 1;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50%;
+    background-color: #c6c6c6;
+    margin: .25em;
+    transition: ease 0.2s;
+}
+
+.current-dot, .dot:hover {
+    background-color: #919191;
+}
+
+
+/*Proprietary to Full Portfulio*/
+.full-parallax {
+    background-image: url(img/portfolio-full-parallax.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.portfolio-item1 {
+    background-image: url(img/portfolio-parallax1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.portfolio-item2 {
+    background-image: url(img/porfolio-parallax2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.portfolio-item3 {
+    background-image: url(img/portfolio-parallax3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.porfolio-item4 {
+    background-image: url(img/porfolio-parallax4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.portfolio-item1 > div {
+    flex-direction: row;
+}
+
+.portfolio-content {
+    margin: auto;
+    text-align: center;
+}
+
+.portfolio-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5em;
+    letter-spacing: .05em;
+    text-shadow: 3px 6px 4px rgb(0, 0, 0, .6);
+    color: white;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+.open {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    letter-spacing: .05em;
+    font-size: 1.5em;
+    box-sizing: content-box;
+    box-shadow: 3px 6px 4px rgb(0, 0, 0, .6);
+    border: .13em solid white;
+    text-shadow: 3px 6px 4px rgb(0, 0, 0, .6);
+    transition: 0.6s ease;
+}
+
+.open:hover {
+    color: #b2b2b2;
+    border: .13em solid #b2b2b2;
+}
+
+.portfoliotxt {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 3px 6px 4px rgb(0, 0, 0, .6);
+    margin-top: 5%;
+    margin-bottom: 25%;
+}
+
+.portfolio-content-bottem {
+    margin: auto;
+    display: flex;
+}
+
+.icons-portfolio {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35%;
+}
+
+.icons-portfolio a {
+    margin: 1em;
+    color: #e5e5e5;
+    font-size: .8em;
+    transition: ease 0.3s;
+}
+
+.icons-portfolio a:hover {
+    color: #afafaf;
+}
