@@ -103,6 +103,7 @@ h1 {
 }
 
 .homeparagrphscon > div {
+    width: 50%;
     font-family: 'Aleo', serif;
     color: #e5e5e5;
     font-size: 1.5em;
@@ -180,13 +181,14 @@ h1 {
 .content-bottom {
     background-color: #232323;
     padding-top: 5em;
+    padding-bottom: 5em;
 }
 
 .portrait {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 40%;
 }
 
 .about-me-bottom-p {
@@ -502,4 +504,11 @@ textarea {
 
 .icons-portfolio a:hover {
     color: #afafaf;
+}
+
+.resume-parallax {
+    background-image: url(img/resume-parallax.jpg);
+     min-height: 100%;
+    background-position: center;
+    background-attachment: fixed;
 }

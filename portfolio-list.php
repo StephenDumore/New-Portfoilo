@@ -35,12 +35,15 @@
         <div class="slideshow">
             <div class="slide">
                 <img class="columnimg" src="img/slideshow1.jpg" alt="A Brazilian city illuminated by multicolored lights at evening">
+                <p class="slidetxt"></p>
             </div>
-            <div class="slide ">
+            <div class="slide">
                 <img class="columnimg" src="img/slideshow2.jpg" alt="London Bridge with Big Ben in the background">
+                <p class="slidetxt">This is a presentation I completed for my Nativo Hablantes (Native Speakers) Spanish class. I was tasked with  creating a PowerPoint or Google Slides presentation about a specific country with a substantial population of Spanish-Speaking people. The country I chose was the Dominican Republic. While conducting my research I learned a lot about the Dominican Republic and improved my Spanish in the process.</p>
             </div>
             <div class="slide">
                 <img class="columnimg" src="img/slideshow3.jpg" alt="Munich, Germany from a distance">
+                <p class="slidetxt">This Is a project I completed on inventions from World War Two for my world history class. The object of the project was to create an informative PowerPoint presentation about an important aspect of a specific period in history. Completing the project taught me a lot about conducting research and about history and how inventions from World War Two are still affecting our lives today.</p>
             </div>
 
 

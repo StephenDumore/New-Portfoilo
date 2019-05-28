@@ -21,20 +21,16 @@
     
     <div class="content-top">
         <div class="contentwhite-vertical">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem corporis numquam blanditiis quibusdam libero hic officiis! Debitis accusantium, optio sit cum quod aliquam quam repellendus omnis culpa a, repudiandae. Earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque, dolorem. Praesentium totam laudantium assumenda iure delectus itaque vitae aspernatur voluptatem, amet libero neque porro inventore magni illo beatae sit!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem corporis numquam blanditiis quibusdam libero hic officiis! Debitis accusantium, optio sit cum quod aliquam quam repellendus omnis culpa a, repudiandae. Earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores atque, dolorem. Praesentium totam laudantium assumenda iure delectus itaque vitae aspernatur voluptatem, amet libero neque porro inventore magni illo beatae sit!</p>
+            <p>Hello, my name is Stephen Dumore. I was born in Fullerton, CA; however, I moved to Clovis when I was two years old and have lived here since then. I’m taking Web Application Development at the Center for Advanced Research and Technology (CART). At CART, I’ve learned CSS and HTML which I used to create a website about a recent technology innovation. I’ve also done several other small projects.</p>
         </div>
         <div class="content-black-vertical">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores accusantium velit aliquid ipsam neque incidunt iure esse mollitia odio repudiandae quaerat impedit quam magnam, cupiditate ex molestias. Labore, adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dicta expedita natus sit obcaecati. Veniam corporis aperiam dolor repellat blanditiis quia vero itaque atque. Dignissimos neque magni ut! Ea, at.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores accusantium velit aliquid ipsam neque incidunt iure esse mollitia odio repudiandae quaerat impedit quam magnam, cupiditate ex molestias. Labore, adipisci. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique dicta expedita natus sit obcaecati. Veniam corporis aperiam dolor repellat blanditiis quia vero itaque atque. Dignissimos neque magni ut! Ea, at.</p>
+            <p>Some of my hobbies include video games, reading, and linguistics. I built my own gaming pc back in 2016. Also, my love of languages has caused me to study Spanish. And I’ve become fluent enough to communicate with relative ease. I can also read and write Spanish.</p>
+            <p>I’ve included samples of my work in the portfolio section of this website, and I’ve also included my linkedin profile among other ways of contacting me. Thank for your time, I hope that you consider me as a potential asset to your organization.</p>
         </div>
     </div>
 
     <div class="content-bottom">
         <img class="portrait" src="img/portrait.jpg" alt="A professional photo myself">
-        <p class="about-me-bottom-p">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae dolorum aspernatur libero laboriosam reiciendis tempore illum. Assumenda, blanditiis nam. Minima quod sit pariatur quo inventore nobis accusamus, odio, neque temporibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi odit, recusandae animi reprehenderit hic veritatis harum vel sint, distinctio perspiciatis molestias aspernatur! Laborum rerum autem impedit reprehenderit qui aliquid fuga.
-        </p>
     </div>
     <div class="form-parallax"></div>
     <div class="form-container">
