@@ -41,8 +41,6 @@
         </div>
         <div class="whiteColumn">
             <div class="resumeListWhite">
-               
-               <div class="resumeLine"></div>
                 <h2>Other Skills</h2>
                 <ul>
                     <li>Speak read and write Spanish</li>
