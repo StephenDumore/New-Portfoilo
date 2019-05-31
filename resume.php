@@ -26,7 +26,7 @@
                     <li>Collaborated with classmate to create a hypothetical humanitarian invention</li>
                     <li>3.9 GPA</li>
                 </ul>
-            
+
                 <h2>Computer Software/Programing</h2>
                 <ul>
                     <li>HTML</li>
@@ -49,6 +49,11 @@
                     <li>Basic Russian</li>
                     <li>Strong collaboration skills</li>
                 </ul>
+                <div class="icons-about-me">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
             </div>
         </div>
     </div>

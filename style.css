@@ -307,7 +307,7 @@ textarea {
 }
 
 .list-black {
-    background-color: black;
+    background-color: #000000;
 }
 
 .space {
@@ -329,16 +329,28 @@ textarea {
     display: none;
 }
 
+.slidetxt {
+    color: #e5e5e5;
+    font-family: 'Aleo', serif;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
 .slide-nav {
     margin: auto;
     display: flex;
+    font-size: 1.4em;
 }
 
 .back,
 .next {
     cursor: pointer;
     color: #c6c6c6;
-    font-size: 1em;
     transition: 0.2s ease;
     font-size: 2em;
     padding-left: 0px;
@@ -346,11 +358,11 @@ textarea {
 }
 
 .back {
-    margin-right: .5em;
+    margin-left: .5em;
 }
 
 .next {
-    margin-left: .5em;
+    margin-right: .5em;
 }
 
 .back:hover,

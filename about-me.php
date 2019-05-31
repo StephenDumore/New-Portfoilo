@@ -18,7 +18,7 @@
         <h1>About Me</h1>
     </div>
     <?php include'templates/nav.php'?>
-    
+
     <div class="content-top">
         <div class="contentwhite-vertical">
             <p>Hello, my name is Stephen Dumore. I was born in Fullerton, CA; however, I moved to Clovis when I was two years old and have lived here since then. I’m taking Web Application Development at the Center for Advanced Research and Technology (CART). At CART, I’ve learned CSS and HTML which I used to create a website about a recent technology innovation. I’ve also done several other small projects.</p>
@@ -51,6 +51,11 @@
                 <input class="submitbtn" type="submit" value="Submit">
             </div>
         </form>
+    </div>
+    <div class="icons-about-me">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
     </div>
 </body>
 
