@@ -67,6 +67,7 @@ h1 {
 
 
 .columnimg {
+    min-width: 100%;
     max-width: 100%;
 }
 
@@ -304,6 +305,10 @@ textarea {
     color: #232323;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25em;
+}
+
+.list-columns > div h2 {
+    letter-spacing: .05em;
 }
 
 .list-black {

@@ -20,12 +20,12 @@
     <div class="list-white">
         <div class="list-columns">
             <div class="pc1">
-                <h2>Title</h2>
+                <h2>binary Translator</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero praesentium excepturi recusandae harum dolor. Veniam rem minus, hic obcaecati possimus animi, similique dolore officia numquam aspernatur, a ipsum, libero cum.</p>
             </div>
             <div class="space"></div>
             <div class="lc2">
-                <h2>Title</h2>
+                <h2>Counting Sundays</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deserunt itaque reiciendis iste quaerat. Et blanditiis tempore ea minima, labore quidem inventore, unde quis ipsa fugiat rerum, porro nobis in.</p>
             </div>
         </div>
@@ -77,11 +77,6 @@
                     <p>The website overall wasn’t too challenging since the majority of it was made using skills that I had been developing throughout the school year. I did have some challenges working with JavaScript due to having less experience with it and its complexity. However, I surpassed these obstacles by gathering data from all senses. I was able to diagnose many of the problems that were present in my code by observing the behaviour parts of the site that utilized JavaScript. I also was able to learn about the correct approach to the problems I encountered by researching similar applications of JavaScript on the internet.</p>
                 </div>
             </div>
-
-
-
-
-
 
         </div>
         <div class="icons">
