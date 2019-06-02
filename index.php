@@ -15,7 +15,7 @@
 
 <body>
     <div class="home-parallax">
-        <h1 class="welcome">Welcome!</h1>
+        <h1>Welcome!</h1>
     </div>
     <?php include'templates/nav.php'?>
 

@@ -34,22 +34,13 @@
     </div>
     <div class="form-parallax"></div>
     <div class="form-container">
-        <form action="#">
-            <div class="form-left">
-                <div class="form-right-items">
-                    <input class="txtbox" type="text" id=1rname name="firstName" placeholder="First Name...">
-                    <input class="txtbox" type="text" id="uname" name="lastName" Placeholder="Last Name...">
-                    <input class="txtbox" type="text" id="company" name="company" placeholder="Company...">
-                </div>
+        <form>
+            <div class="form-name">
+                <input class="name" type="text" id="fname" name="fname" placeholder="Organization...">
+                <input class="email" type="text" id="email" name="fname" placeholder="Email...">
             </div>
-            <div class="form-right">
-                <div class="form-right-items"></div>
-                <label for="Location">Location</label>
-                <input type="radio" name="Location" value="Phobos"> Phobos
-                <input type="radio" name="Location" value="Deimos"> Deimos
-                <textarea name="comment" id="" cols="30" rows="10" placeholder="Comment(s)..."></textarea>
-                <input class="submitbtn" type="submit" value="Submit">
-            </div>
+            <textarea name="msg" id="msg" placeholder="Message..."></textarea>
+            <input class="submit" type="Submit" value="Submit">
         </form>
     </div>
     <div class="icons-about-me">

@@ -27,7 +27,7 @@
                     <li>3.9 GPA</li>
                 </ul>
 
-                <h2>Computer Software/Programing</h2>
+                <h2>Computer Software &amp; Programing</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>

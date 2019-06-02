@@ -4,9 +4,10 @@ body {
 
 .home-parallax {
     background-image: url(img/home-parallax.jpg);
-    min-height: 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: bottom;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -46,6 +47,7 @@ h1 {
     color: #6b6b6b;
 }
 
+
 .ddmenu a {
     padding-right: 1em;
 }
@@ -81,7 +83,6 @@ h1 {
 
 .homecolumns > div {
     width: 33.3%;
-    background-color: ;
     margin: .75em;
 }
 
@@ -136,10 +137,10 @@ h1 {
 /*Proprietary to About Me*/
 .about-me-parallax {
     background-image: url(img/aboutmeparallax.jpg);
-    min-height: 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: bottom;
     background-attachment: fixed;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .content-toptop {
@@ -160,11 +161,14 @@ h1 {
     font-family: 'Aleo', serif;
     color: #232323;
     font-size: 1.5em;
-    margin-left: 5%;
-    padding-right: 5%;
     padding-top: 2em;
     padding-bottom: 2.2em;
     width: 50%;
+}
+
+.contentwhite-vertical p {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .content-black-vertical {
@@ -172,11 +176,14 @@ h1 {
     font-family: 'Aleo', serif;
     color: #e5e5e5;
     font-size: 1.5em;
-    padding-left: 5%;
-    padding-right: 5%;
     padding-top: 2em;
     padding-bottom: 2.2em;
     width: 50%;
+}
+
+.content-black-vertical p {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .content-bottom {
@@ -215,54 +222,88 @@ h1 {
     height: 300px;
 }
 
-.form-container {
-    display: flex;
-    margin: auto;
-    margin-top: 2em;
-    justify-content: center;
-    width: 60%;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.form-left {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-.form-left > div {
+form {
+    padding-top: 3em;
     width: 50%;
-    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 10em;
 }
 
-.form-right {
+.form-text-container {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+    padding-bottom: 3em;
 }
 
-.form-right > div {
-    width: 30%;
-    flex-direction: column;
+.contact-msg {
+    font-size: 2em;
+    margin-bottom: 2em;
 }
 
-.txtbox {
+.form-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.form-name > input {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    padding-left: .5em;
+    border: 2px solid #ededed;
+    width: 50%;
     font-size: 1em;
-    width: 100%;
-    padding: .75em;
-    padding-left: 1.5em;
+}
 
+.name {
+    margin-right: 1em;
+}
+
+.email {
+    margin-left: 1em;
 }
 
 textarea {
-    font-family: 'Open Sans', sans-serif;
-    resize: none;
     width: 100%;
-    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+    border: 2px solid #ededed;
+    padding-bottom: 6em;
+    margin-bottom: 1em;
+    resize: vertical;
+
 }
 
-.submitbtn {
+.submit {
+    margin-top: .5em;
+    margin-bottom: .5em;
+    padding-top: .8em;
+    padding-bottom: .8em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border: 1px solid #ededed;
+    border-radius: 4px;
     font-size: 1em;
+    background-color: #404040;
+    color: #fafafa;
+    transition: .4s ease;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    margin-right: 25%;
+    font-weight: 600;
+    letter-spacing: .03em;
+}
+
+.submit:hover {
+    background-color: #1c1c1c;
 }
 
 .icons-about-me {
@@ -288,7 +329,6 @@ textarea {
     background-image: url(img/list-parallax-new.jpg);
     background-size: cover;
     background-position: bottom;
-    background-attachment: fixed;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -343,7 +383,7 @@ textarea {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .slide-nav {
@@ -398,6 +438,11 @@ textarea {
 
 
 /*Proprietary to Full Portfulio*/
+.aleo-title {
+    letter-spacing: .07em;
+    padding-left: 5%;
+}
+
 .full-parallax {
     background-image: url(img/portfolio-full-parallax.jpg);
     background-size: cover;
@@ -509,11 +554,12 @@ textarea {
 .icons-portfolio {
     display: flex;
     flex-direction: row;
-    margin-left: 35%;
+    margin-left: 50%;
 }
 
 .icons-portfolio a {
-    margin: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
     color: #e5e5e5;
     font-size: .8em;
     transition: ease 0.3s;
@@ -525,9 +571,10 @@ textarea {
 
 .resume-parallax {
     background-image: url(img/resume-parallax.jpg);
-    min-height: 100%;
-    background-position: center;
+    background-size: cover;
+    background-position: bottom;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .ResumeColumns {
@@ -552,7 +599,6 @@ textarea {
 .resumeList-Black {
     color: #f7f7f7;
     font-family: 'Open Sans', sans-serif;
-    white-space: pre-line;
     width: 60%;
     padding-left: 20%;
 }
@@ -589,4 +635,208 @@ textarea {
 .resumeListWhite li {
     padding-bottom: 1em;
     font-size: 1.5em;
+}
+
+/*Tablet******************************************************/
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 6.3em;
+    }
+
+    /*home*/
+    .homecolumns {
+        width: 90%;
+    }
+
+    .homecolumns > div {
+        font-size: .9em;
+    }
+
+    .homeparagrphscon {
+        width: 90%;
+        font-size: .95em;
+    }
+
+    /*about me*/
+    .content-top > div {
+        font-size: 1.2em;
+        /*afects full portfolio*/
+    }
+
+
+    /*portfolio list*/
+    .list-columns {
+        width: 90%;
+    }
+
+    .slideshow {
+        width: 80%;
+    }
+
+    .slide-nav {
+        font-size: 1.1em;
+    }
+
+    .slidetxt {
+        font-size: 1.2em;
+    }
+
+    .portfolio-content-bottem > div {
+        font-size: 1.2em;
+    }
+
+    .icons-portfolio {
+        position: absolute;
+        right: 0;
+        font-size: 1.3em;
+    }
+
+    .icons-portfolio a {
+        margin-left: .7em;
+        margin-right: .7em;
+    }
+
+    /*full portfolio*/
+    .portfolio > div h2 {
+        font-size: 3.5em;
+    }
+
+    .portfolio > div p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.4em;
+        width: 90%;
+    }
+
+    /*resume*/
+    .ResumeColumns > div li {
+        padding-bottom: .7em;
+        font-size: 1.3em;
+    }
+
+    .resumeList-Black {
+        padding-left: 5%;
+    }
+
+    .resumeListWhite {
+        padding-right: 5%;
+    }
+}
+
+/*mobile******************************************/
+@media (max-width: 600px) {
+    h1 {
+        font-size: 3.7em;
+    }
+
+    .navbar a {
+        font-size: 1.7em;
+    }
+
+    /*home*/
+    .homecolumns {
+        flex-direction: column;
+    }
+
+    .homecolumns > div {
+        width: 100%;
+        padding-bottom: 2em;
+    }
+
+    .homeparagrphscon {
+        flex-direction: column;
+        padding-top: 7em;
+    }
+
+    .homeparagrphscon > div {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .icons {
+        margin-left: 65%;
+    }
+
+    .icons a {
+        font-size: 1em;
+        margin-left: .75em;
+        margin-right: .75em;
+    }
+
+    /*about me*/
+    .content-top {
+        flex-direction: column;
+    }
+
+    .content-top > div {
+        width: 100%;
+    }
+
+    .contentwhite-vertical {
+        padding-top: 0;
+    }
+
+    .contentwhite-vertical p {
+        margin-top: 0;
+    }
+
+    .portrait {
+        width: 80%;
+    }
+
+    form {
+        width: 75%;
+    }
+
+    .form-name {
+        flex-direction: column;
+    }
+
+    .form-name input {
+        width: 100%;
+        margin: 0;
+    }
+
+    .submit {
+        margin-right: 12.5%;
+    }
+
+    /*portfolio list*/
+    .list-columns {
+        flex-direction: column;
+    }
+
+    .list-columns > div {
+        width: 100%;
+    }
+
+    .slideshow {
+        width: 90%;
+    }
+
+    /*portfolio full*/
+    .aleo-title {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .portfolio-content-bottem {
+        flex-direction: column;
+    }
+
+    .portfolio-content-bottem > div {
+        width: 100%;
+    }
+
+    /*resume*/
+    .ResumeColumns {
+        flex-direction: column;
+    }
+
+    .ResumeColumns > div {
+        width: 100%;
+    }
+
+
 }
