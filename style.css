@@ -186,6 +186,23 @@ h1 {
     padding-right: 5%;
 }
 
+/*propratary*/
+.contentwhite-vertical-fullportfolio {
+    font-family: 'Aleo', serif;
+    color: #232323;
+    font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2.2em;
+    width: 50%;
+}
+
+.contentwhite-vertical-fullportfolio p {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/******/
+
 .content-bottom {
     background-color: #232323;
     padding-top: 5em;
@@ -795,7 +812,18 @@ textarea {
 
     .form-name input {
         width: 100%;
-        margin: 0;
+        margin-left: 0;
+        margin-right: 0;
+        display: inline-block;
+    }
+
+    .name {
+        margin-bottom: .5em;
+        display: inline-block;
+    }
+
+    .email {
+        margin-top: .5em;
     }
 
     .submit {
@@ -837,6 +865,4 @@ textarea {
     .ResumeColumns > div {
         width: 100%;
     }
-
-
 }
